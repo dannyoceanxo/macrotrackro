@@ -1,4 +1,5 @@
 @import 'utility';
+@import url('https://fonts.googleapis.com/css?family=Spectral');
 
 $base-text-size: 16px;
 $base-font-family: sans-serif;
@@ -8,6 +9,99 @@ html {
 }
 
 body {
-  margin: 0;
+  //margin: 0;
   font: $base-text-size / 1 $base-font-family;
+  background-image: url(../../public/images/brickbackground.jpg);
+  font-family: Spectral;
+}
+
+.introtext {
+  color: pink;
+}
+
+.main {
+  //display: flex;
+  //text-align: justify;
+  align-items: center;
+  margin: auto;
+  max-width: 1200px;
+}
+.intropic {
+  height: 100px;
+  width: 100px;
+  display: flex;
+  justify-content: center;
+}
+.completedprojects {
+  background-color: #a4bab7;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 1em;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-right: 1em;
+  padding-left: 1em;
+}
+.snowman {
+  padding-left: 8px;
+  padding-right: 8px;
+}
+.colorpicker {
+  padding-left: 8px;
+  padding-right: 8px;
+}
+.shoutbox {
+  padding-left: 8px;
+  padding-right: 8px;
+}
+.roshambo {
+  padding-left: 8px;
+  padding-right: 8px;
+}
+//.socialmedia {
+//  display: flex;
+//  align-items: center;
+//  text-align: center;
+//  justify-content: space-around;
+  //border-radius: 0.5em;
+  //background-color: #505254;
+  //color: #fff;
+  //padding-top: 1em;
+  //padding-bottom: 1em;
+  //font-size: 2em;
+//}
+
+.photosofprojects {
+  display: flex;
+  color: #fff;
+  justify-content: space-around;
+  background-color: #505254;
+  padding-top: 15px;
+  border-radius: 0.5em;
+  div.img {
+    height: 300px;
+    width: 300px;
+  }
+  div.one, div.two, div.chuckNorris {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 300px;
+  }
+  .one .img {
+    background-image: url(../../public/images/jabberdexiconscreenshot.png);
+    background-size: cover;
+    background-position: center;
+  }
+  .two .img {
+    background-image: url(../../public/images/roadtoregionalsscreenshot.png);
+    background-size: cover;
+    background-position: center;
+  }
+}
+.copyrightSocialMedia {
+  padding-top: 10px;
+  text-align: center;
+  color: pink;
 }
