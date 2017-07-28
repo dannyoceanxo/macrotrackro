@@ -15,8 +15,17 @@ body {
   font-family: Spectral;
 }
 
+.macroTrackLogo {
+  display: flex;
+  justify-content: center;
+  padding-top: 200px;
+}
+
 .introtext {
-  color: #454b54;
+  color: black;
+  display: flex;
+  justify-content: center;
+  padding-top: 2px;
 }
 
 .main {
@@ -76,7 +85,7 @@ body {
   display: flex;
   color: #fff;
   justify-content: space-around;
-  background-color: #505254;
+  //background-color: #505254;
   padding-top: 15px;
   border-radius: 0.5em;
   div.img {

@@ -3,8 +3,11 @@ import React, { Component } from 'react'
 class App extends Component {
   render () {
     return <div className='main'>
+      <div className='macroTrackLogo'>
+        <img src='images/macrotrack.png' />
+      </div>
       <div className='introtext'>
-        <h1>Hey, what's up?</h1>
+        {/* <h1>Hey, what's up?</h1> */}
         <h2>I'm Gen King and I'm gonna get your macros on track.  Buckle up, motherfuckers!</h2>
       </div>
       {/* <p>{this.state.bio}</p> */}
@@ -12,7 +15,7 @@ class App extends Component {
         <img className='intropic' src={this.state.profile} />
       </div> */}
       <div className='photosofprojects'>
-        <div className='one'>
+        {/* <div className='one'>
           <div className='img' />
           <p>You see this shit?  Broccoli?  Eat mad broccoli, just trust me</p>
         </div>
@@ -23,7 +26,7 @@ class App extends Component {
         <div className='two'>
           <div className='img' />
           <p>STEAK.  You gotta eat all the steak you can find.  Something about protein, I don't really know.</p>
-        </div>
+        </div> */}
       </div>
       <footer>
         {/* <div className='completedprojects'>
