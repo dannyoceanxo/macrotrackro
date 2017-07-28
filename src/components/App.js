@@ -5,7 +5,7 @@ class App extends Component {
     return <div className='main'>
       <div className='introtext'>
         <h1>Hey, what's up?</h1>
-        <h2>I'm Danny Shenker, a junior front end developer who recently graduated from The Iron Yard</h2>
+        <h2>I'm Gen King and I'm gonna get your macros on track.  Buckle up, motherfuckers!</h2>
       </div>
       {/* <p>{this.state.bio}</p> */}
       {/* <div>
@@ -13,20 +13,20 @@ class App extends Component {
       </div> */}
       <div className='photosofprojects'>
         <div className='one'>
-          <a href='http://jabberdexicon.dannyshenker.surge.sh/'><div className='img' /></a>
-          <p>This is the "Jabberdexicon," a glossary of terms we created for new programmers to get acquainted with some of our jargon.</p>
+          <div className='img' />
+          <p>You see this shit?  Broccoli?  Eat mad broccoli, just trust me</p>
         </div>
         <div className='chuckNorris'>
-          <a href='https://github.com/dannyoceanxo'><img src='images/chucknorris.JPG' height='300px' width='280px' /></a>
-          <p>Just hanging out with my best friend Chuck Norris.  Click on his nose to check out my Github profile</p>
+          <img src='images/soda3.png' />
+          <p>Greg Glassman told me that soda creeps into your house at night and punches you.  Don't fuck with soda, it's bad for you</p>
         </div>
         <div className='two'>
-          <a href='http://roadtoregionals.dannyshenker.surge.sh/'><div className='img' /></a>
-          <p>For my final project at The Iron Yard I created the Road to Regionals app.  This takes your scores from the 2017 CrossFit Open and guides you to making it to next year's Regionals with suggested workouts and articles.</p>
+          <div className='img' />
+          <p>STEAK.  You gotta eat all the steak you can find.  Something about protein, I don't really know.</p>
         </div>
       </div>
       <footer>
-        <div className='completedprojects'>
+        {/* <div className='completedprojects'>
           <h4>Check out some other projects I've worked on:</h4>
           <div className='snowman'>
             <a href='http://snowman.dannyoceanxo.surge.sh'><img src='images/snowmanscreenshot.png' height='150px' width='300px' /></a>
@@ -40,7 +40,7 @@ class App extends Component {
           <div className='roshambo'>
             <a href='http://one-list.dannyshenker.surge.sh/'><img src='images/onelist.png' height='225px' width='215px' /></a>
           </div>
-        </div>
+        </div> */}
         {/* <div className='design'>
           <h1>No Clique</h1>
           <div className='noCliqueDesigns'>

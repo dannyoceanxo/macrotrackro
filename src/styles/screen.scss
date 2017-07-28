@@ -11,12 +11,12 @@ html {
 body {
   //margin: 0;
   font: $base-text-size / 1 $base-font-family;
-  background-image: url(../../public/images/brickbackground.jpg);
+  background-image: url(../../public/images/marathon.jpg);
   font-family: Spectral;
 }
 
 .introtext {
-  color: pink;
+  color: #454b54;
 }
 
 .main {
@@ -90,12 +90,12 @@ body {
     width: 300px;
   }
   .one .img {
-    background-image: url(../../public/images/jabberdexiconscreenshot.png);
+    background-image: url(../../public/images/broccoli2.png);
     background-size: cover;
     background-position: center;
   }
   .two .img {
-    background-image: url(../../public/images/roadtoregionalsscreenshot.png);
+    background-image: url(../../public/images/steak2.png);
     background-size: cover;
     background-position: center;
   }
@@ -103,5 +103,10 @@ body {
 .copyrightSocialMedia {
   padding-top: 10px;
   text-align: center;
-  color: pink;
+  color: #454b54;
+  position:fixed;
+   left:0px;
+   bottom:30px;
+   height:45px;
+   width:100%;
 }
